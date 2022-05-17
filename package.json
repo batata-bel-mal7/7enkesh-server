@@ -1,0 +1,27 @@
+{
+  "name": "7enkesh-server",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "repository": "git@github.com:batata-bel-mal7/7enkesh-server.git",
+  "author": "mostafaelspagh0 <mostafaelspagh0@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/server.js\""
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase": "^9.8.1",
+    "firebase-admin": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.33",
+    "concurrently": "^7.2.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  }
+}
