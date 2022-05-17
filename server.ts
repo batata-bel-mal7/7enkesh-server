@@ -1,5 +1,5 @@
 import express, { Express, Request, Response } from "express";
-import CategoryRouter from "./routes/category";
+import CategoryRouter from "./src/routes/category";
 import dotenv from "dotenv";
 
 const app: Express = express();
